@@ -1,4 +1,3 @@
-setup.py
 brain_games/__init__.py
 brain_games/scripts/__init__.py
 brain_games/scripts/brain_games.py
