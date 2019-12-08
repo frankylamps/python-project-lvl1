@@ -4,6 +4,9 @@ python: 3.6
 install: make
 
 before install:
-  - pip install -r requirements.txt
+  - pip install poetry
+
+instal:
+  - poetry install
 
 script: make lint
