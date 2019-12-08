@@ -8,6 +8,6 @@ before install:
 
 instal:
   - poetry install
-  - poetry add --dev flake8
+  - pip install -r requirements.txt
 
 script: make lint
