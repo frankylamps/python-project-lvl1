@@ -1,1 +1,5 @@
+language: python
+python: 3.6
 script: make lint
+install:
+  - pip install -r requirements.txt
