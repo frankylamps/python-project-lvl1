@@ -1,8 +1,11 @@
+README.md
 brain_games/__init__.py
+brain_games/cli.py
 brain_games/scripts/__init__.py
 brain_games/scripts/brain_games.py
 frankylamps_brain_games.egg-info/PKG-INFO
 frankylamps_brain_games.egg-info/SOURCES.txt
 frankylamps_brain_games.egg-info/dependency_links.txt
 frankylamps_brain_games.egg-info/entry_points.txt
+frankylamps_brain_games.egg-info/requires.txt
 frankylamps_brain_games.egg-info/top_level.txt
