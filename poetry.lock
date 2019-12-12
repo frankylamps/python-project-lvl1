@@ -6,9 +6,18 @@ optional = false
 python-versions = ">=3.3"
 version = "0.4.1"
 
+[[package]]
+category = "main"
+description = "Python 3 compatible Pytohn 2 `random` Module."
+name = "random2"
+optional = false
+python-versions = "*"
+version = "1.0.1"
+
 [metadata]
-content-hash = "a1fa5c59984f7ea2ca6bda35136985767ec0671ca35e9ccde0fa6937000a101e"
+content-hash = "e397b5d62c5c7591b4898cb9f6c1a8cebbbbc0d230878e9601fbdfceef4ff5ed"
 python-versions = "^3.6"
 
 [metadata.hashes]
 prompt = ["8a7694b88f8c65188a983315e72582bf42fcc251b97042be1d2a2ad1aa0ebe0e", "98527de8dc3f0aa29669a39fbffeaf578ba6654dc836f737b6a5c6f9279002b7"]
+random2 = ["34ad30aac341039872401595df9ab2c9dc36d0b7c077db1cea9ade430ed1c007"]

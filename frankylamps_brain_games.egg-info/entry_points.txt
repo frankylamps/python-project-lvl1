@@ -1,3 +1,4 @@
 [console_scripts]
+brain-ever = brain_games.scripts.brain_ever:main
 brain-games = brain_games.scripts.brain_games:main
 
