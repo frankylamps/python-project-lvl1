@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "frankylamps_brain_games"
-version = "0.2.1"
-description = ""
+version = "0.3.0"
+description = "stage 5 is ready"
 authors = ["Roman <fcdm@inbox.ru>"]
 packages = [
     { include = "brain_games" },
