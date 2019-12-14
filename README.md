@@ -5,3 +5,5 @@
 [![Build Status](https://travis-ci.org/frankylamps/python-project-lvl1.svg?branch=master)](https://travis-ci.org/frankylamps/python-project-lvl1)
 
 [![asciicast](https://asciinema.org/a/DHRoRJJwAe0G4CjYMHF3LmeFl.svg)](https://asciinema.org/a/DHRoRJJwAe0G4CjYMHF3LmeFl)
+
+[![asciicast](https://asciinema.org/a/pFvJhOA2XDYjQEK4fj74rDkDO.svg)](https://asciinema.org/a/pFvJhOA2XDYjQEK4fj74rDkDO)
