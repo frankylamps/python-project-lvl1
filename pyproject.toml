@@ -9,7 +9,7 @@ packages = [
 
 classifiers = [
     "Programming Language :: Python :: 3.8",
-    "Topic :: Software Development :: Libraries :: Python Modules"
+    "Development Status :: 4 - Beta"
 ]
 
 [tool.poetry.dependencies]
