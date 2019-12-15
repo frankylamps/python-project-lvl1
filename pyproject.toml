@@ -14,10 +14,6 @@ random2 = "^1.0"
 
 [tool.poetry.dev-dependencies]
 
-classifiers = [
-    'Development Status :: 4 - Beta',
-]
-
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:main"
