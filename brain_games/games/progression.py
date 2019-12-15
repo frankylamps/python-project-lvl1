@@ -5,8 +5,8 @@ import prompt
 def main():
     print('Welcome to the Brain Games!')
     print('What number is missing in the progression? \n')
-    name = prompt.string('May I have your name? ')
-    print('Hello, {}! \n'.format(name))
+    NAME = prompt.string('May I have your name? ')
+    print('Hello, {}! \n'.format(NAME))
     counter = 0
 
     while counter < 3:
@@ -34,7 +34,7 @@ def main():
             break
         counter += 1
     if counter == 3:
-        print('Congratulations, {}!'.format(name))
+        print('Congratulations, {}!'.format(NAME))
 
 
 if __name__ == '__main__':

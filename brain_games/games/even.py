@@ -12,8 +12,8 @@ def is_even(num):
 def main():
     print('Welcome to the Brain Games!')
     print('Answer "yes" if number even otherwise answer "no". \n')
-    name = prompt.string('May I have your name? ')
-    print('Hello, {}! \n'.format(name))
+    NAME = prompt.string('May I have your name? ')
+    print('Hello, {}! \n'.format(NAME))
     counter = 0
     while counter < 3:
         guess = random.randint(1, 100)
@@ -27,7 +27,7 @@ def main():
             print("'{}' is a wrong answer ;(. Correct answer was '{}'".format(answer, is_even(guess)))
             break
     if counter == 3:
-        print('Congratulations, {}!'.format(name))
+        print('Congratulations, {}!'.format(NAME))
 
 
 if __name__ == '__main__':
