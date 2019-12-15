@@ -1,8 +1,9 @@
 [tool.poetry]
 name = "frankylamps_brain_games"
 version = "0.7.0"
-description = "1st project is ready"
+description = "1st project of Python course on hexlet.io"
 authors = ["Roman <fcdm@inbox.ru>"]
+repository = ["https://test.pypi.org/project/frankylamps-brain-games/"]
 packages = [
     { include = "brain_games" },
 ]
@@ -13,6 +14,14 @@ prompt = "^0.4.1"
 random2 = "^1.0"
 
 [tool.poetry.dev-dependencies]
+
+classifiers = [
+    'Development Status :: 4 - Beta',
+    'Environment :: Console',
+    'Operating System :: POSIX',
+    'Programming Language :: Python',
+    'Topic :: Games/Entertainment',
+]
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
