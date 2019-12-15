@@ -3,7 +3,6 @@ name = "frankylamps_brain_games"
 version = "0.7.0"
 description = "1st project of Python course on hexlet.io"
 authors = ["Roman <fcdm@inbox.ru>"]
-repository = ["https://test.pypi.org/project/frankylamps-brain-games/"]
 packages = [
     { include = "brain_games" },
 ]
