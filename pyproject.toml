@@ -19,7 +19,6 @@ classifiers = [
     'Environment :: Console',
     'Operating System :: POSIX',
     'Programming Language :: Python',
-    'Topic :: Games/Entertainment',
 ]
 
 [tool.poetry.scripts]
