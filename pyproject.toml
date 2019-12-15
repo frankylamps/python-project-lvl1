@@ -18,7 +18,6 @@ classifiers = [
     'Development Status :: 4 - Beta',
     'Environment :: Console',
     'Operating System :: POSIX',
-    'Programming Language :: Python',
 ]
 
 [tool.poetry.scripts]
