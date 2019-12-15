@@ -4,12 +4,12 @@
 
 [![Build Status](https://travis-ci.org/frankylamps/python-project-lvl1.svg?branch=master)](https://travis-ci.org/frankylamps/python-project-lvl1)
 
-[![brain-even](https://asciinema.org/a/DHRoRJJwAe0G4CjYMHF3LmeFl.svg)](https://asciinema.org/a/DHRoRJJwAe0G4CjYMHF3LmeFl)
+[![brain-even](https://asciinema.org/a/1uUmzSLQfVHG4Tez4cHb4diom.svg)](https://asciinema.org/a/1uUmzSLQfVHG4Tez4cHb4diom)
 
-[![brain-calc](https://asciinema.org/a/pFvJhOA2XDYjQEK4fj74rDkDO.svg)](https://asciinema.org/a/pFvJhOA2XDYjQEK4fj74rDkDO)
+[![brain-calc](https://asciinema.org/a/T3i9G26ldke8cn9EE0T4z2WmO.svg)](https://asciinema.org/a/T3i9G26ldke8cn9EE0T4z2WmO)
 
-[![brain-gcd](https://asciinema.org/a/sbGVnmuWt7yZd4Us5HV1nzpVm.svg)](https://asciinema.org/a/sbGVnmuWt7yZd4Us5HV1nzpVm)
+[![brain-gcd](https://asciinema.org/a/rxYqGIQDKs1IM2q41HbLzLrxR.svg)](https://asciinema.org/a/rxYqGIQDKs1IM2q41HbLzLrxR)
 
-[![brain-progression](https://asciinema.org/a/7ICaqi6eDkBEVcexPc8aIuFem.svg)](https://asciinema.org/a/7ICaqi6eDkBEVcexPc8aIuFem)
+[![brain-progression](https://asciinema.org/a/KmVFHXRqcRoCT1Ad4f1HOF6Bq.svg)](https://asciinema.org/a/KmVFHXRqcRoCT1Ad4f1HOF6Bq)
 
-[![brain-prime](https://asciinema.org/a/HmJjAvtQhsd20P1KfmodHPC3K.svg)](https://asciinema.org/a/HmJjAvtQhsd20P1KfmodHPC3K)
+[![brain-prime](https://asciinema.org/a/l8KFs6989f9BujiYXuMbwmf6Y.svg)](https://asciinema.org/a/l8KFs6989f9BujiYXuMbwmf6Y)
