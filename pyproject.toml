@@ -13,6 +13,11 @@ classifiers = [
     "Development Status :: 4 - Beta"
 ]
 
+[[tool.poetry.source]]
+name = "test_pypi"
+url = "https://test.pypi.org/legacy/"
+
+
 [tool.poetry.dependencies]
 python = "^3.6"
 prompt = "^0.4.1"
