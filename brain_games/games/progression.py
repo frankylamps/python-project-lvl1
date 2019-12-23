@@ -1,41 +1,33 @@
 import random
-import prompt
+
+RULES = 'What number is missing in the progression?'
 
 
-def main():
-    print('Welcome to the Brain Games!')
-    print('What number is missing in the progression? \n')
-    NAME = prompt.string('May I have your name? ')
-    print('Hello, {}! \n'.format(NAME))
-    counter = 0
-
-    while counter < 3:
-        start = random.randint(1, 100)
-        step = random.randint(1, 20)
-        ind = 1
-        secret = 0
-        rand_ind = random.randint(2, 9)
-        print('Question: ', end='')
-        while ind <= 10:
-            if ind == rand_ind:
-                secret = start
-                print('..', end=' ')
-            else:
-                print(start, end=' ')
-            start += step
-            ind += 1
-        print('')
-        print('Answer: ', end='')
-        answer = input()
-        if answer == str(secret):
-            print('Correct!')
+def progression_game():
+    START = random.randint(1, 100)
+    current_number = START
+    step = random.randint(1, 20)
+    counter = 1
+    secret = 0
+    hide_counter = random.randint(2, 9)
+    print('Question: ', end='')
+    while counter <= 10:
+        if counter == hide_counter:
+            secret = current_number
+            print('..', end=' ')
         else:
-            print("'{}' is a wrong answer ;(. Correct answer was '{}'".format(answer, secret))
-            break
+            print(current_number, end=' ')
+        current_number += step
         counter += 1
-    if counter == 3:
-        print('Congratulations, {}!'.format(NAME))
+    print('')
+    print('Answer: ', end='')
+    answer = input()
+    if answer == str(secret):
+        print('Correct!')
+    else:
+        print("'{}' is a wrong answer ;(. Correct answer was '{}'".format(answer, secret))
+        return 'fail'
 
 
 if __name__ == '__main__':
-    main()
+    progression_game()

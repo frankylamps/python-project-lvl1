@@ -1,9 +1,9 @@
-import brain_games.games.progression
+#!/usr/bin/env python3
+
+from brain_games.engine import engine
+from brain_games.games.progression import progression_game
+from brain_games.games.progression import RULES
 
 
-def main():
-    brain_games.games.progression.main()
-
-
-if __name__ == '__main__':
-    main()
+def launch_progression_game():
+    engine(progression_game, RULES)

@@ -1,9 +1,9 @@
-import brain_games.games.calc
+#!/usr/bin/env python3
+
+from brain_games.engine import engine
+from brain_games.games.calc import calc_game
+from brain_games.games.calc import RULES
 
 
-def main():
-    brain_games.games.calc.main()
-
-
-if __name__ == '__main__':
-    main()
+def launch_calc_game():
+    engine(calc_game, RULES)
