@@ -5,5 +5,9 @@ from brain_games.games.progression import progression_game
 from brain_games.games.progression import RULES
 
 
-def launch_progression_game():
+def main():
     engine(progression_game, RULES)
+
+
+if __name__ == '__main__':
+    main()

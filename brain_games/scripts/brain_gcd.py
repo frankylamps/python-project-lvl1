@@ -5,5 +5,9 @@ from brain_games.games.gcd import gcd_game
 from brain_games.games.gcd import RULES
 
 
-def launch_gcd_game():
+def main():
     engine(gcd_game, RULES)
+
+
+if __name__ == '__main__':
+    main()

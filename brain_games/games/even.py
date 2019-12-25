@@ -12,15 +12,5 @@ def is_even(num):
 
 def even_game():
     guess = random.randint(1, 100)
-    print('Question: ' + str(guess))
-    print('Your answer:', end=" ")
-    answer = input()
-    if answer == is_even(guess):
-        print('Correct!')
-    else:
-        print("'{}' is a wrong answer ;(. Correct answer was '{}'".format(answer, is_even(guess)))
-        return 'fail'
-
-
-if __name__ == '__main__':
-    even_game()
+    correct_answer = is_even(guess)
+    return guess, correct_answer

@@ -5,5 +5,9 @@ from brain_games.games.calc import calc_game
 from brain_games.games.calc import RULES
 
 
-def launch_calc_game():
+def main():
     engine(calc_game, RULES)
+
+
+if __name__ == '__main__':
+    main()

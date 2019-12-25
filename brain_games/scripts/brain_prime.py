@@ -5,5 +5,9 @@ from brain_games.games.prime import prime_game
 from brain_games.games.prime import RULES
 
 
-def launch_prime_game():
+def main():
     engine(prime_game, RULES)
+
+
+if __name__ == '__main__':
+    main()

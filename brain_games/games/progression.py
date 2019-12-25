@@ -5,29 +5,19 @@ RULES = 'What number is missing in the progression?'
 
 def progression_game():
     START = random.randint(1, 100)
+    STEP = random.randint(1, 20)
     current_number = START
-    step = random.randint(1, 20)
     counter = 1
-    secret = 0
-    hide_counter = random.randint(2, 9)
-    print('Question: ', end='')
+    answer = 0
+    hide_this_counter = random.randint(2, 9)
+    question = ''
     while counter <= 10:
-        if counter == hide_counter:
-            secret = current_number
-            print('..', end=' ')
+        if counter == hide_this_counter:
+            answer = current_number
+            question += '.. '
         else:
-            print(current_number, end=' ')
-        current_number += step
+            question += str(current_number) + ' '
+        current_number += STEP
         counter += 1
-    print('')
-    print('Answer: ', end='')
-    answer = input()
-    if answer == str(secret):
-        print('Correct!')
-    else:
-        print("'{}' is a wrong answer ;(. Correct answer was '{}'".format(answer, secret))
-        return 'fail'
-
-
-if __name__ == '__main__':
-    progression_game()
+    question = question[0:-1:]
+    return question, answer

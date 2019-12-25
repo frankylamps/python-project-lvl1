@@ -5,5 +5,9 @@ from brain_games.games.even import even_game
 from brain_games.games.even import RULES
 
 
-def launch_even_game():
+def main():
     engine(even_game, RULES)
+
+
+if __name__ == '__main__':
+    main()
