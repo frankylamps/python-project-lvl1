@@ -3,7 +3,7 @@ import random
 RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def is_prime(num):
+def get_answer(num):
     div = 2
     while div <= round(num / 2):
         if num % div == 0:
@@ -12,7 +12,7 @@ def is_prime(num):
     return 'yes'
 
 
-def prime_game():
+def start_round():
     question = random.randint(2, 100)
-    answer = is_prime(question)
+    answer = get_answer(question)
     return question, answer

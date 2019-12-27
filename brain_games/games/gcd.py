@@ -10,9 +10,9 @@ def get_div(a, b):
     return div
 
 
-def gcd_game():
+def start_round():
     num1 = random.randint(1, 200)
     num2 = random.randint(1, 200)
     question = str(num1) + ' ' + str(num2)
-    correct_answer = get_div(num1, num2)
-    return question, correct_answer
+    answer = get_div(num1, num2)
+    return question, answer

@@ -3,14 +3,14 @@ import random
 RULES = 'Answer "yes" if number even otherwise answer "no"'
 
 
-def is_even(num):
+def get_answer(num):
     if num % 2 == 0:
         return 'yes'
     else:
         return 'no'
 
 
-def even_game():
+def start_round():
     guess = random.randint(1, 100)
-    correct_answer = is_even(guess)
-    return guess, correct_answer
+    answer = get_answer(guess)
+    return guess, answer
