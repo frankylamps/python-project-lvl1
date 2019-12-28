@@ -13,6 +13,6 @@ def get_div(a, b):
 def start_round():
     num1 = random.randint(1, 200)
     num2 = random.randint(1, 200)
-    question = ('{} {}'.format(str(num1),str(num2)))
+    question = ('{} {}'.format(str(num1), str(num2)))
     answer = get_div(num1, num2)
     return question, answer
