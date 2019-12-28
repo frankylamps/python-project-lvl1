@@ -1,16 +1,17 @@
 import random
-import operator
+from operator import add, mul, sub
 
 RULES = 'What is the result of the expression?'
 
 
 def start_round():
-    num_1 = random.randint(10, 15)
-    num_2 = random.randint(1, 5)
-    opt_add = ('add', '+')
-    opt_mul = ('mul', '*')
-    opt_sub = ('sub', '-')
-    opt_rand = random.choice([opt_add, opt_mul, opt_sub])
-    question = ('{} {} {}'.format(num_1, opt_rand[1], num_2))
-    answer = getattr(operator, opt_rand[0])(num_1, num_2)
+    num1 = random.randint(10, 15)
+    num2 = random.randint(1, 5)
+    function, symbol = random.choice([
+        (add, '+'),
+        (mul, '*'),
+        (sub, '-'),
+    ])
+    question = ('{} {} {}'.format(num1, symbol, num2))
+    answer = function(num1, num2)
     return question, answer

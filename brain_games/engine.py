@@ -3,7 +3,8 @@ import prompt
 
 def engine(game_module):
     print('Welcome to the Brain Games!')
-    print(game_module.RULES + '\n')
+    print(game_module.RULES)
+    print()
     name = prompt.string('May I have your name? ')
     print('Hello, {}!'.format(name))
     counter = 1
